@@ -1,0 +1,7 @@
+{
+  "name": "Khao Chaison Health Visit - ระบบเยี่ยมบ้านชุมชน อำเภอเขาชัยสน",
+  "description": "เว็บแอปพลิเคชันบันทึกและเชื่อมโยงข้อมูลผู้ป่วยสำหรับการลงพื้นที่เยี่ยมบ้านในชุมชน อำเภอเขาชัยสน สำหรับทีมเภสัชกรและสหวิชาชีพ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

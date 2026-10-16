@@ -1,0 +1,120 @@
+import { TambonData } from '../types';
+
+export const AMPHOE_KHAO_CHAISON = 'เขาชัยสน';
+export const PROVINCE_PHATTHALUNG = 'พัทลุง';
+
+export const KHAO_CHAISON_TAMBONS: TambonData[] = [
+  {
+    name: 'เขาชัยสน',
+    villages: [
+      { moo: 1, name: 'บ้านเขาชัยสน' },
+      { moo: 2, name: 'บ้านท่านางพรหม' },
+      { moo: 3, name: 'บ้านท่าลาด' },
+      { moo: 4, name: 'บ้านท่าควาย' },
+      { moo: 5, name: 'บ้านคลองควน' },
+      { moo: 6, name: 'บ้านดอนธูป' },
+      { moo: 7, name: 'บ้านเกาะยาง' },
+      { moo: 8, name: 'บ้านเกาะทองสม' },
+      { moo: 9, name: 'บ้านควนหมี่' },
+      { moo: 10, name: 'บ้านนาป่า' },
+      { moo: 11, name: 'บ้านทุ่งเคี่ยม' },
+      { moo: 12, name: 'บ้านหนองไม้ไผ่' },
+      { moo: 13, name: 'บ้านใสส้มป่อย' },
+      { moo: 14, name: 'บ้านทุ่งเลียบ' },
+    ],
+  },
+  {
+    name: 'โคกม่วง',
+    villages: [
+      { moo: 1, name: 'บ้านโคกม่วง' },
+      { moo: 2, name: 'บ้านโพธิ์ทอง' },
+      { moo: 3, name: 'บ้านควนพนังตุง' },
+      { moo: 4, name: 'บ้านหนองเหรียง' },
+      { moo: 5, name: 'บ้านควนขี้แรด' },
+      { moo: 6, name: 'บ้านลำรำ' },
+      { moo: 7, name: 'บ้านโคกโพธิ์' },
+      { moo: 8, name: 'บ้านท่าม่วง' },
+      { moo: 9, name: 'บ้านหนองปราง' },
+      { moo: 10, name: 'บ้านหัวสะพาน' },
+      { moo: 11, name: 'บ้านสะพานดิน' },
+      { moo: 12, name: 'บ้านคลองแตระ' },
+      { moo: 13, name: 'บ้านดอนทราย' },
+      { moo: 14, name: 'บ้านควนท้อน' },
+      { moo: 15, name: 'บ้านควนอินนอโม' },
+    ],
+  },
+  {
+    name: 'ควนขนุน',
+    villages: [
+      { moo: 1, name: 'บ้านท่าขี้เหล็ก' },
+      { moo: 2, name: 'บ้านท่าแค' },
+      { moo: 3, name: 'บ้านปากคลอง' },
+      { moo: 4, name: 'บ้านควนขนุน' },
+      { moo: 5, name: 'บ้านท่านางบัว' },
+      { moo: 6, name: 'บ้านยางหยี' },
+      { moo: 7, name: 'บ้านทุ่งยอ' },
+      { moo: 8, name: 'บ้านโคกทราย' },
+      { moo: 9, name: 'บ้านหนองนา' },
+      { moo: 10, name: 'บ้านเตาปูน' },
+    ],
+  },
+  {
+    name: 'จองถนน',
+    villages: [
+      { moo: 1, name: 'บ้านจองถนน' },
+      { moo: 2, name: 'บ้านแหลมจองถนน' },
+      { moo: 3, name: 'บ้านปากประ' },
+      { moo: 4, name: 'บ้านท่าเสา' },
+      { moo: 5, name: 'บ้านท่ามะนาว' },
+      { moo: 6, name: 'บ้านหาดไข่เต่า' },
+      { moo: 7, name: 'บ้านแหลมกรวด' },
+    ],
+  },
+  {
+    name: 'หานโพธิ์',
+    villages: [
+      { moo: 1, name: 'บ้านหานโพธิ์' },
+      { moo: 2, name: 'บ้านท่าลาดเหนือ' },
+      { moo: 3, name: 'บ้านตลิ่งชัน' },
+      { moo: 4, name: 'บ้านทุ่งนุ้ย' },
+      { moo: 5, name: 'บ้านไร่' },
+      { moo: 6, name: 'บ้านดอนนูด' },
+      { moo: 7, name: 'บ้านบางแก้ว' },
+      { moo: 8, name: 'บ้านปากเหมือง' },
+      { moo: 9, name: 'บ้านลำเสา' },
+      { moo: 10, name: 'บ้านปลวกงอก' },
+      { moo: 11, name: 'บ้านเกาะทอง' },
+    ],
+  },
+];
+
+export const COMMON_CHRONIC_DISEASES = [
+  'ความดันโลหิตสูง (HT)',
+  'เบาหวาน (DM type 2)',
+  'ไขมันในเลือดสูง (Dyslipidemia)',
+  'โรคไตเรื้อรัง (CKD)',
+  'โรคหลอดเลือดสมอง (Stroke)',
+  'โรคเกาต์ (Gout)',
+  'โรคหัวใจขาดเลือด (CAD / IHD)',
+  'โรคปอดอุดกั้นเรื้อรัง (COPD)',
+  'โรคข้อเข่าเสื่อม (OA Knee)',
+  'ภาวะสมองเสื่อม (Dementia)',
+  'ภาวะกระดูกพรุน (Osteoporosis)',
+];
+
+export const COMMON_MEDICATIONS_NCD = [
+  { name: 'Amlodipine 5 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ความดันโลหิตสูง' },
+  { name: 'Amlodipine 10 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ความดันโลหิตสูง' },
+  { name: 'Losartan 50 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ความดันโลหิตสูง/ไต' },
+  { name: 'Enalapril 5 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ความดันโลหิตสูง' },
+  { name: 'Metformin 500 mg', dose: '1 tab', freq: 'วันละ 2 ครั้ง หลังอาหารเช้า-เย็น', indication: 'เบาหวาน' },
+  { name: 'Glipizide 5 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง ก่อนอาหารเช้า 30 นาที', indication: 'เบาหวาน' },
+  { name: 'Atorvastatin 20 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง ก่อนนอน', indication: 'ไขมันในเลือดสูง' },
+  { name: 'Simvastatin 20 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง ก่อนนอน', indication: 'ไขมันในเลือดสูง' },
+  { name: 'Aspirin 81 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้าทันที', indication: 'ป้องกันหลอดเลือดอุดตัน' },
+  { name: 'Clopidogrel 75 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ป้องกันหลอดเลือดอุดตัน' },
+  { name: 'Omeprazole 20 mg', dose: '1 cap', freq: 'วันละ 1 ครั้ง ก่อนอาหารเช้า 30 นาที', indication: 'เคลือบกระเพาะ / กรดไหลย้อน' },
+  { name: 'Paracetamol 500 mg', dose: '1-2 tab', freq: 'ทุก 4-6 ชม. เมื่อมีอาการปวดหรือไข้', indication: 'บรรเทาปวด/ลดไข้' },
+  { name: 'Calcium Carbonate 1,000 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง พร้อมหรือหลังอาหารเช้า', indication: 'เสริมแคลเซียม/ฟอสเฟต' },
+  { name: 'Allopurinol 100 mg', dose: '1 tab', freq: 'วันละ 1 ครั้ง หลังอาหารเช้า', indication: 'ลดกรดยูริก/เกาต์' },
+];

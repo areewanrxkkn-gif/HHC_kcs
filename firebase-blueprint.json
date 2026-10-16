@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Health personnel user profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["pharmacist", "doctor", "nurse", "public_health", "vhv", "admin"] },
+        "roleTitle": { "type": "string" },
+        "organization": { "type": "string" },
+        "avatar": { "type": "string" }
+      },
+      "required": ["id", "email", "name", "role", "roleTitle", "organization"]
+    },
+    "Patient": {
+      "title": "Patient",
+      "description": "Patient information in Khao Chaison district",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "hn": { "type": "string" },
+        "idCard": { "type": "string" },
+        "title": { "type": "string" },
+        "firstName": { "type": "string" },
+        "lastName": { "type": "string" },
+        "gender": { "type": "string", "enum": ["ชาย", "หญิง"] },
+        "birthDate": { "type": "string" },
+        "ageYears": { "type": "number" },
+        "ageMonths": { "type": "number" },
+        "tel": { "type": "string" },
+        "houseNo": { "type": "string" },
+        "moo": { "type": "number" },
+        "villageName": { "type": "string" },
+        "tambon": { "type": "string" },
+        "amphoe": { "type": "string" },
+        "province": { "type": "string" },
+        "healthCoverage": { "type": "string" },
+        "chronicDiseases": { "type": "array" },
+        "chronicDiseasesOther": { "type": "string" },
+        "drugAllergies": { "type": "array" },
+        "caregiver": { "type": "object" },
+        "emergencyContact": { "type": "object" },
+        "patientStatus": { "type": "string" },
+        "notes": { "type": "string" },
+        "familyTreePhoto": { "type": "string" },
+        "familyTreeNotes": { "type": "string" },
+        "familyTreeUpdatedAt": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "hn", "title", "firstName", "lastName", "gender", "moo", "villageName", "tambon", "patientStatus"]
+    },
+    "VisitRecord": {
+      "title": "VisitRecord",
+      "description": "Comprehensive home visit record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "patientId": { "type": "string" },
+        "visitNumber": { "type": "number" },
+        "visitDate": { "type": "string" },
+        "visitorName": { "type": "string" },
+        "visitorRole": { "type": "string" },
+        "coVisitors": { "type": "string" },
+        "bpSys": { "type": "number" },
+        "bpDia": { "type": "number" },
+        "pulse": { "type": "number" },
+        "temp": { "type": "number" },
+        "rr": { "type": "number" },
+        "dtx": { "type": "number" },
+        "spo2": { "type": "number" },
+        "weight": { "type": "number" },
+        "height": { "type": "number" },
+        "bmi": { "type": "number" },
+        "painScore": { "type": "number" },
+        "painLocation": { "type": "string" },
+        "subjective": { "type": "string" },
+        "objective": { "type": "string" },
+        "assessment": { "type": "string" },
+        "plan": { "type": "string" },
+        "ifeeIdeas": { "type": "string" },
+        "ifeeFeelings": { "type": "string" },
+        "ifeeExpectations": { "type": "string" },
+        "ifeeEffects": { "type": "string" },
+        "inhomeImmobility": { "type": "string" },
+        "inhomeNutrition": { "type": "string" },
+        "inhomeHousing": { "type": "string" },
+        "inhomeOtherPeople": { "type": "string" },
+        "inhomeMedication": { "type": "string" },
+        "inhomeExamination": { "type": "string" },
+        "inhomeSafety": { "type": "string" },
+        "inhomeSpiritual": { "type": "string" },
+        "inhomeServices": { "type": "string" },
+        "medications": { "type": "array" },
+        "pharmacistAdvice": { "type": "string" },
+        "photos": { "type": "array" },
+        "nextVisitDate": { "type": "string" },
+        "nextVisitTime": { "type": "string" },
+        "nextVisitGoal": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "patientId", "visitNumber", "visitDate", "visitorName"]
+    },
+    "GoogleSheetsConfig": {
+      "title": "GoogleSheetsConfig",
+      "description": "Google Sheets synchronization settings",
+      "type": "object",
+      "properties": {
+        "webhookUrl": { "type": "string" },
+        "autoSync": { "type": "boolean" },
+        "sheetNamePatients": { "type": "string" },
+        "sheetNameVisits": { "type": "string" },
+        "lastSyncedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/patients/{patientId}": {
+      "schema": "Patient",
+      "description": "Khao Chaison patient medical records"
+    },
+    "/visits/{visitId}": {
+      "schema": "VisitRecord",
+      "description": "Patient home visit clinical records"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Healthcare team member profiles"
+    },
+    "/config/{configId}": {
+      "schema": "GoogleSheetsConfig",
+      "description": "Application configuration settings"
+    }
+  }
+}

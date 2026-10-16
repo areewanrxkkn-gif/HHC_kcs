@@ -1,0 +1,575 @@
+{
+  "users": [],
+  "patients": [
+    {
+      "hn": "6806426",
+      "idCard": "3930406739696",
+      "title": "นาย",
+      "firstName": "อาฟานี",
+      "lastName": "มูลทรัพย์",
+      "gender": "ชาย",
+      "birthDate": "1956-05-15",
+      "ageYears": 70,
+      "ageMonths": 4,
+      "tel": "",
+      "houseNo": "32",
+      "moo": 1,
+      "villageName": "บ้านเขาชัยสน",
+      "tambon": "เขาชัยสน",
+      "amphoe": "เขาชัยสน",
+      "province": "พัทลุง",
+      "healthCoverage": "บัตรทอง (UC)",
+      "chronicDiseases": [
+        "ความดันโลหิตสูง (HT)"
+      ],
+      "chronicDiseasesOther": "",
+      "drugAllergies": [],
+      "caregiver": {
+        "name": "",
+        "relation": "",
+        "tel": "",
+        "availability": ""
+      },
+      "emergencyContact": {
+        "name": "",
+        "relation": "",
+        "tel": ""
+      },
+      "patientStatus": "ติดสังคม (เดินได้ปกติ)",
+      "notes": "",
+      "id": "pt-1790257315328",
+      "createdAt": "2026-09-24T13:41:55.328Z",
+      "updatedAt": "2026-09-24T13:41:55.328Z"
+    },
+    {
+      "id": "pt-001",
+      "hn": "6200142",
+      "idCard": "3930400128912",
+      "title": "นาง",
+      "firstName": "พร้อม",
+      "lastName": "คงแก้ว",
+      "gender": "หญิง",
+      "birthDate": "1948-04-12",
+      "ageYears": 78,
+      "ageMonths": 5,
+      "tel": "081-456-7890",
+      "houseNo": "45/2",
+      "moo": 5,
+      "villageName": "บ้านคลองควน",
+      "tambon": "เขาชัยสน",
+      "amphoe": "เขาชัยสน",
+      "province": "พัทลุง",
+      "healthCoverage": "บัตรทอง (UC)",
+      "chronicDiseases": [
+        "ความดันโลหิตสูง (HT)",
+        "เบาหวาน (DM type 2)",
+        "โรคไตเรื้อรัง (CKD)"
+      ],
+      "chronicDiseasesOther": "ภาวะข้อเข่าเสื่อม 2 ข้าง",
+      "drugAllergies": [
+        {
+          "drugName": "Penicillin",
+          "reaction": "ผื่นคันลมพิษ บวมรอบตา"
+        }
+      ],
+      "caregiver": {
+        "name": "นางสาวสุดารัตน์ คงแก้ว",
+        "relation": "บุตรสาว",
+        "tel": "089-765-4321",
+        "availability": "ดูแลช่วงเช้าและเย็น (กลางวันทำงานรับจ้างใกล้บ้าน)"
+      },
+      "emergencyContact": {
+        "name": "นายสมพร คงแก้ว",
+        "relation": "บุตรชาย",
+        "tel": "086-111-2233"
+      },
+      "patientStatus": "ติดบ้าน (เคลื่อนไหวลำบาก)",
+      "notes": "บ้านเป็นเรือนไม้ยกพื้น มีทางลาดด้านข้าง ห้องน้ำมีราวจับบางส่วน",
+      "createdAt": "2026-08-10T09:00:00.000Z",
+      "updatedAt": "2026-09-24T13:38:07.120Z"
+    },
+    {
+      "id": "pt-002",
+      "hn": "5903421",
+      "idCard": "3930400054321",
+      "title": "นาย",
+      "firstName": "ประเสริฐ",
+      "lastName": "จันทร์สว่าง",
+      "gender": "ชาย",
+      "birthDate": "1942-11-20",
+      "ageYears": 83,
+      "ageMonths": 10,
+      "tel": "084-222-3344",
+      "houseNo": "112/1",
+      "moo": 1,
+      "villageName": "บ้านจองถนน",
+      "tambon": "จองถนน",
+      "amphoe": "เขาชัยสน",
+      "province": "พัทลุง",
+      "healthCoverage": "ข้าราชการบำนาญ (เบิกได้)",
+      "chronicDiseases": [
+        "โรคหลอดเลือดสมอง (Stroke)",
+        "ความดันโลหิตสูง (HT)",
+        "ไขมันในเลือดสูง (Dyslipidemia)"
+      ],
+      "chronicDiseasesOther": "อ่อนแรงครึ่งซีกซ้าย (Hemiparesis)",
+      "drugAllergies": [],
+      "caregiver": {
+        "name": "นางวิไล จันทร์สว่าง",
+        "relation": "ภรรยา",
+        "tel": "084-222-3344",
+        "availability": "ดูแลตลอด 24 ชั่วโมง"
+      },
+      "emergencyContact": {
+        "name": "ร.ต.อ. อนุชา จันทร์สว่าง",
+        "relation": "บุตรชาย",
+        "tel": "081-999-8877"
+      },
+      "patientStatus": "ติดเตียง (ช่วยเหลือตัวเองไม่ได้)",
+      "notes": "ใส่สายสวนปัสสาวะคา (Foley catheter) มีที่นอนลม",
+      "createdAt": "2026-07-02T10:15:00.000Z",
+      "updatedAt": "2026-09-18T11:00:00.000Z"
+    },
+    {
+      "id": "pt-003",
+      "hn": "6401928",
+      "idCard": "3930400876543",
+      "title": "นาย",
+      "firstName": "บุญมี",
+      "lastName": "พงษ์สุวรรณ",
+      "gender": "ชาย",
+      "birthDate": "1958-08-05",
+      "ageYears": 68,
+      "ageMonths": 1,
+      "tel": "087-333-4455",
+      "houseNo": "28",
+      "moo": 4,
+      "villageName": "บ้านหนองเหรียง",
+      "tambon": "โคกม่วง",
+      "amphoe": "เขาชัยสน",
+      "province": "พัทลุง",
+      "healthCoverage": "บัตรทอง (UC)",
+      "chronicDiseases": [
+        "เบาหวาน (DM type 2)",
+        "ความดันโลหิตสูง (HT)"
+      ],
+      "chronicDiseasesOther": "",
+      "drugAllergies": [
+        {
+          "drugName": "Sulfonamides (Bactrim)",
+          "reaction": "ผื่นคันแดงทั่วตัว"
+        }
+      ],
+      "caregiver": {
+        "name": "นางสมศรี พงษ์สุวรรณ",
+        "relation": "ภรรยา",
+        "tel": "087-333-4455",
+        "availability": "อยู่ด้วยกันสองคนตายาย"
+      },
+      "emergencyContact": {
+        "name": "นายกิตติ พงษ์สุวรรณ",
+        "relation": "บุตรชาย",
+        "tel": "085-444-5566"
+      },
+      "patientStatus": "ติดสังคม (เดินได้ปกติ)",
+      "notes": "ยังขับขี่รถจักรยานยนต์ได้ แต่ตามัวเล็กน้อยจากต้อกระจก",
+      "createdAt": "2026-09-01T08:30:00.000Z",
+      "updatedAt": "2026-09-20T16:00:00.000Z"
+    },
+    {
+      "id": "pt-004",
+      "hn": "6502201",
+      "idCard": "3930400334411",
+      "title": "นาง",
+      "firstName": "มาลี",
+      "lastName": "ชุมทอง",
+      "gender": "หญิง",
+      "birthDate": "1952-03-15",
+      "ageYears": 74,
+      "ageMonths": 6,
+      "tel": "082-555-6677",
+      "houseNo": "64/3",
+      "moo": 3,
+      "villageName": "บ้านท่าลาด",
+      "tambon": "เขาชัยสน",
+      "amphoe": "เขาชัยสน",
+      "province": "พัทลุง",
+      "healthCoverage": "บัตรทอง (UC)",
+      "chronicDiseases": [
+        "ความดันโลหิตสูง (HT)",
+        "ไขมันในเลือดสูง (Dyslipidemia)",
+        "โรคเกาต์ (Gout)"
+      ],
+      "chronicDiseasesOther": "",
+      "drugAllergies": [],
+      "caregiver": {
+        "name": "นายวิเชียร ชุมทอง",
+        "relation": "สามี",
+        "tel": "082-555-6677",
+        "availability": "ดูแลสม่ำเสมอ"
+      },
+      "emergencyContact": {
+        "name": "นางปราณี ชุมทอง",
+        "relation": "บุตรสาว",
+        "tel": "083-666-7788"
+      },
+      "patientStatus": "ติดบ้าน (เคลื่อนไหวลำบาก)",
+      "notes": "ปวดข้อเท้าขวาเป็นพักๆ เดินกระเผลก",
+      "createdAt": "2026-08-25T11:00:00.000Z",
+      "updatedAt": "2026-09-12T15:20:00.000Z"
+    }
+  ],
+  "visits": [
+    {
+      "patientId": "pt-001",
+      "visitNumber": 3,
+      "visitDate": "2026-09-24T13:38",
+      "visitorName": "fnafanee19",
+      "visitorRole": "เภสัชกรชำนาญการ",
+      "coVisitors": "พยาบาลวิชาชีพ รพ.สต., อสม. ประจำหมู่บ้าน",
+      "temp": 36.5,
+      "rr": 18,
+      "spo2": 98,
+      "painScore": 0,
+      "painLocation": "",
+      "subjective": "",
+      "objective": "",
+      "assessment": "",
+      "plan": "",
+      "ifeeIdeas": "",
+      "ifeeFeelings": "",
+      "ifeeExpectations": "",
+      "ifeeEffects": "",
+      "inhomeImmobility": "",
+      "inhomeNutrition": "",
+      "inhomeHousing": "",
+      "inhomeOtherPeople": "",
+      "inhomeMedication": "",
+      "inhomeExamination": "",
+      "inhomeSafety": "",
+      "inhomeSpiritual": "",
+      "inhomeServices": "",
+      "medications": [
+        {
+          "id": "med-2bb6tolsn",
+          "name": "Amlodipine 5 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ควบคุม BP ได้ 132/80 mmHg"
+        },
+        {
+          "id": "med-t9pmlvgg5",
+          "name": "Losartan 50 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง ชะลอไตเสื่อม",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ไม่มีอาการข้างเคียง"
+        },
+        {
+          "id": "med-i2i37gab3",
+          "name": "Metformin 500 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 2 ครั้ง หลังอาหารเช้า-เย็น",
+          "indication": "เบาหวาน",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานหลังอาหารทันที ไม่คลื่นไส้"
+        },
+        {
+          "id": "med-mzoiusb88",
+          "name": "Paracetamol 500 mg",
+          "dose": "1 tab",
+          "frequency": "ทุก 6 ชม. เมื่อมีอาการปวดเข่า",
+          "indication": "บรรเทาอาการปวดข้อเข่า",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานเฉพาะวันที่เดินเยอะ สัปดาห์ละ 1-2 เม็ด"
+        }
+      ],
+      "pharmacistAdvice": "",
+      "photos": [],
+      "nextVisitTime": "09:30",
+      "id": "visit-1790257087120",
+      "createdAt": "2026-09-24T13:38:07.120Z",
+      "updatedAt": "2026-09-24T13:38:07.120Z"
+    },
+    {
+      "id": "visit-001",
+      "patientId": "pt-001",
+      "visitNumber": 1,
+      "visitDate": "2026-08-15T10:00",
+      "visitorName": "ภก. ธนดล มงคลสุข",
+      "visitorRole": "เภสัชกรชำนาญการ รพ.เขาชัยสน",
+      "coVisitors": "พว. วันเพ็ญ (รพ.สต.เขาชัยสน), อสม. สมใจ",
+      "bpSys": 148,
+      "bpDia": 88,
+      "pulse": 76,
+      "temp": 36.6,
+      "rr": 18,
+      "dtx": 165,
+      "spo2": 97,
+      "weight": 58.5,
+      "height": 152,
+      "bmi": 25.3,
+      "painScore": 5,
+      "painLocation": "ข้อเข่าทั้งสองข้าง ปวดตื้อๆ เวลาลงน้ำหนัก",
+      "subjective": "ผู้ป่วยบ่นว่ามีอาการวิงเวียนศีรษะเวลาลุกขึ้นยืนเร็วๆ รับประทานยาเบาหวานและยาความดันบ้าง ลืมบ้าง ยาบางตัวเม็ดใหญ่กลืนลำบาก ยาชุดแก้ปวดเข่าที่ซื้อจากร้านชำยังมีอยู่ในตะกร้า",
+      "objective": "BP 148/88 mmHg, DTX 165 mg/dL. ตรวจพบยาชุดซองใส 3 ชุด มี Dexamethasone + Piroxicam + วิตามินบี ได้ให้คำแนะนำและขอเก็บทำลาย ยา Metformin เหลือเยอะกว่ากำหนด 45 เม็ด",
+      "assessment": "1. Uncontrolled HT & DM จาก Poor compliance (ลืมทานยาเช้า-เย็น)\n2. DRP: Adverse drug reaction risk จากการใช้ยาชุดสเตียรอยด์แก้ปวดเข่า\n3. Orthostatic hypotension สัมพันธ์กับการลุกเปลี่ยนท่าเร็ว",
+      "plan": "1. ให้ความรู้เรื่องอันตรายของยาชุดสเตียรอยด์ ขอเก็บยาชุดทิ้ง\n2. จัดตลับยา 7 วัน (เช้า-เย็น) ให้ญาติช่วยจัดและกำกับ\n3. แนะนำการรับประทาน Paracetamol เมื่อปวดเข่า ไม่ซื้อยาชุดอีก\n4. แนะนำวิธีเปลี่ยนอิริยาบถช้าๆ เพื่อป้องกันหน้ามืดหกล้ม",
+      "ifeeIdeas": "ยายคิดว่ายาชุดซองใสช่วยให้หายปวดเข่าเร็ว ทำงานบ้านได้คล่องกว่ายาโรงพยาบาล",
+      "ifeeFeelings": "กลัวเป็นอัมพฤกษ์เหมือนเพื่อนบ้าน กังวลเรื่องขาดยา และกลัวตามัว",
+      "ifeeExpectations": "อยากเดินไปวัดทำบุญในหมู่บ้านได้โดยไม่ปวดเข่า อยากลดยาลง ไม่อยากกินยาวันละหลายเม็ด",
+      "ifeeEffects": "ไม่กล้าเดินออกไปหน้าบ้าน กลัวล้ม ต้องให้ลูกสาวคอยพยุงเข้าห้องน้ำ",
+      "inhomeImmobility": "เดินด้วยไม้เท้า 4 ขา (Walker) ในบ้าน ก้าวช้า มีอาการเซเล็กน้อย",
+      "inhomeNutrition": "ชอบทานแกงไตปลาและน้ำพริกผักต้ม เค็มจัด แนะนำให้ลดเค็มลงครึ่งหนึ่ง",
+      "inhomeHousing": "บ้านสะอาด แต่แสงสว่างตรงทางเดินไปห้องน้ำสลัว แนะนำเปลี่ยนหลอดไฟ LED สว่างขึ้น",
+      "inhomeOtherPeople": "ลูกสาวใส่ใจดูแลดี แต่ต้องออกไปกรีดยางช่วงเช้ามืด ทำให้ผู้ป่วยต้องทานยาเองตอนเช้า",
+      "inhomeMedication": "แยกยาเดิมและยาใหม่ไม่ชัดเจน วางปนกันในตะกร้าหน้าทีวี ได้จัดตลับยาและติดสติกเกอร์สีแยกเวลา",
+      "inhomeExamination": "เข่าทั้ง 2 ข้างมีเสียงกรอบแกรบ (Crepitus) ไม่มีแผลกดทับ เท้า 2 ข้างตรวจ Monofilament รับรู้ปกติ",
+      "inhomeSafety": "มีธรณีประตูห้องน้ำสูง 5 ซม. แนะนำให้ลูกสาวทำทางลาดหรือติดเทปสะท้อนแสงเตือน",
+      "inhomeSpiritual": "สวดมนต์ไหว้พระทุกค่ำ มีลูกสาวและหลานให้กำลังใจดี",
+      "inhomeServices": "รับยาต่อเนื่องที่ รพ.สต.เขาชัยสน โดยมี อสม. ช่วยส่งยาให้บางงวด",
+      "medications": [
+        {
+          "id": "med-1",
+          "name": "Amlodipine 5 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง",
+          "adherence": "ลืมกินบ่อย",
+          "drpNotes": "ลืมกินช่วงเช้าเฉลี่ยสัปดาห์ละ 2-3 วัน"
+        },
+        {
+          "id": "med-2",
+          "name": "Losartan 50 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง ชะลอไตเสื่อม",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานร่วมกับ Amlodipine"
+        },
+        {
+          "id": "med-3",
+          "name": "Metformin 500 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 2 ครั้ง หลังอาหารเช้า-เย็น",
+          "indication": "เบาหวาน",
+          "adherence": "ยาเหลือเกินกำหนด",
+          "drpNotes": "มื้อเย็นมักลืมทานเพราะทานข้าวน้อย ยาเหลือค้าง 45 เม็ด"
+        },
+        {
+          "id": "med-4",
+          "name": "Paracetamol 500 mg",
+          "dose": "1 tab",
+          "frequency": "ทุก 6 ชม. เฉพาะเวลาปวดเข่า",
+          "indication": "บรรเทาอาการปวดข้อเข่า",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ให้ทานแทนยาชุดลูกกลอน"
+        }
+      ],
+      "pharmacistAdvice": "อธิบายการทำงานของยาตลับ ให้ลูกสาวช่วยตรวจตลับยาทุกเย็น แนะนำห้ามซื้อยาลูกกลอน ยาต้ม ยาหม้อ หรือยาชุดเด็ดขาดเพราะมีสเตียรอยด์ทำให้ไตเสื่อมเร็ว",
+      "photos": [
+        {
+          "id": "photo-1",
+          "dataUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&auto=format&fit=crop&q=80",
+          "caption": "ตลับยา 7 วันที่เภสัชกรจัดให้ใหม่ พร้อมป้ายกำกับมื้อเช้า-เย็น",
+          "category": "ตู้ยา/ซองยา",
+          "uploadedAt": "2026-08-15T10:30:00.000Z"
+        },
+        {
+          "id": "photo-2",
+          "dataUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
+          "caption": "สภาพบริเวณทางเดินในบ้านและเตียงนอนของผู้ป่วย",
+          "category": "สภาพบ้าน/สิ่งแวดล้อม",
+          "uploadedAt": "2026-08-15T10:35:00.000Z"
+        }
+      ],
+      "nextVisitDate": "2026-09-15",
+      "nextVisitTime": "10:00",
+      "nextVisitGoal": "ติดตามความสม่ำเสมอในการรับประทานยาจากตลับยา, ตรวจวัด BP ซ้ำ, ตรวจสอบว่าไม่ใช้ยาชุดซ้ำ",
+      "createdAt": "2026-08-15T11:00:00.000Z",
+      "updatedAt": "2026-08-15T11:00:00.000Z"
+    },
+    {
+      "id": "visit-002",
+      "patientId": "pt-001",
+      "visitNumber": 2,
+      "visitDate": "2026-09-15T10:15",
+      "visitorName": "ภก. ธนดล มงคลสุข",
+      "visitorRole": "เภสัชกรชำนาญการ รพ.เขาชัยสน",
+      "coVisitors": "พว. สุภาวดี, อสม. สมใจ",
+      "bpSys": 132,
+      "bpDia": 80,
+      "pulse": 72,
+      "temp": 36.5,
+      "rr": 16,
+      "dtx": 138,
+      "spo2": 98,
+      "weight": 58,
+      "height": 152,
+      "bmi": 25.1,
+      "painScore": 2,
+      "painLocation": "เข่าขวาเมื่อเดินนาน",
+      "subjective": "ผู้ป่วยยิ้มแย้มแจ่มใสขึ้นมาก บอกว่าใช้ตลับยา 7 วันแล้วกินยาครบ ไม่ลืมมื้อเช้าแล้ว ลูกสาวช่วยเติมยาทุกวันอาทิตย์ ไม่ได้ซื้อยาชุดมากินอีกเลย อาการเวียนศีรษะลดลง",
+      "objective": "BP 132/80 mmHg (คุมได้ดีขึ้นมาก เทียบกับ 148/88 รอบก่อน), DTX 138 mg/dL (ลดลงจาก 165). ตรวจนับยาในตลับ พบทานครบถ้วน ไม่มีลืมยา",
+      "assessment": "1. Controlled HT & improved DM control รองรับผลจากการเพิ่ม Adherence\n2. DRP resolved: หยุดใช้ยาชุดเรียบร้อย ปลอดภัยจาก Steroid toxicity\n3. Knee pain improved with Paracetamol PRN + quadriceps exercises",
+      "plan": "1. ชมเชยผู้ป่วยและผู้ดูแลเรื่องการใช้ตลับยา\n2. ให้คงการทานยาตามเดิมต่อเนื่อง\n3. สาธิตท่ายกขานั่งเก้าอี้บริหารกล้ามเนื้อรอบข้อเข่า 3 เซ็ต/วัน\n4. นัดหมายติดตามในอีก 1 เดือนข้างหน้า",
+      "ifeeIdeas": "เริ่มเข้าใจแล้วว่ายากินสม่ำเสมอทำให้ร่างกายกระปรี้กระเปร่า ไม่ต้องพึ่งยาชุด",
+      "ifeeFeelings": "สบายใจขึ้นมาก อารมณ์ดี ไม่กังวลเรื่องอัมพฤกษ์แล้ว",
+      "ifeeExpectations": "อยากให้ความดันและน้ำตาลอยู่ในเกณฑ์แบบนี้ตลอดไป",
+      "ifeeEffects": "สามารถเดินรดน้ำต้นไม้หน้าบ้านได้เองช่วงเย็น ช่วยเก็บกวาดใบไม้ได้",
+      "inhomeImmobility": "เดินมั่นคงขึ้น ใช้ Walker คล่องแคล่ว",
+      "inhomeNutrition": "ลดแกงเผ็ดเค็ม หันมาทานต้มจืดผักกาดขาวและปลาต้มส้มแทน",
+      "inhomeHousing": "ลูกสาวเปลี่ยนหลอดไฟทางเดินสว่างชัดเจนแล้ว ติดราวจับข้างห้องน้ำเพิ่ม 1 จุด",
+      "inhomeOtherPeople": "ความสัมพันธ์ในบ้านอบอุ่น ลูกสาวรู้สึกผ่อนคลายขึ้นเพราะผู้ป่วยจัดการยาได้ดี",
+      "inhomeMedication": "จัดตลับยาสัปดาห์ละครั้ง ทำได้ถูกต้อง 100%",
+      "inhomeExamination": "ไม่มีอาการบวมที่ข้อเท้า (no pretibial edema), เท้าสะอาดดี",
+      "inhomeSafety": "ทางเดินเก็บสายไฟและของเกะกะเรียบร้อย ปลอดภัยดีมาก",
+      "inhomeSpiritual": "จิตใจสงบ ไปทำบุญวันพระที่ผ่านมาได้สำเร็จ",
+      "inhomeServices": "นัดตรวจเลือดประจำปีที่ รพ.เขาชัยสน ในเดือนตุลาคมนี้",
+      "medications": [
+        {
+          "id": "med-1",
+          "name": "Amlodipine 5 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ควบคุม BP ได้ 132/80 mmHg"
+        },
+        {
+          "id": "med-2",
+          "name": "Losartan 50 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง ชะลอไตเสื่อม",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ไม่มีอาการข้างเคียง"
+        },
+        {
+          "id": "med-3",
+          "name": "Metformin 500 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 2 ครั้ง หลังอาหารเช้า-เย็น",
+          "indication": "เบาหวาน",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานหลังอาหารทันที ไม่คลื่นไส้"
+        },
+        {
+          "id": "med-4",
+          "name": "Paracetamol 500 mg",
+          "dose": "1 tab",
+          "frequency": "ทุก 6 ชม. เมื่อมีอาการปวดเข่า",
+          "indication": "บรรเทาอาการปวดข้อเข่า",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานเฉพาะวันที่เดินเยอะ สัปดาห์ละ 1-2 เม็ด"
+        }
+      ],
+      "pharmacistAdvice": "เน้นย้ำการบริหารข้อเข่า และตรวจเช็คสายตาในการนัด รพ. รอบหน้า",
+      "photos": [
+        {
+          "id": "photo-3",
+          "dataUrl": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&auto=format&fit=crop&q=80",
+          "caption": "ผู้ป่วยยิ้มโชว์ตลับยาที่รับประทานครบถ้วนตามรอบ",
+          "category": "การให้คำปรึกษา",
+          "uploadedAt": "2026-09-15T10:45:00.000Z"
+        }
+      ],
+      "nextVisitDate": "2026-10-20",
+      "nextVisitTime": "10:00",
+      "nextVisitGoal": "ตรวจติดตามผลเลือดประจำปี (FBS, HbA1c, eGFR) และตรวจประเมินข้อเข่าซ้ำ",
+      "createdAt": "2026-09-15T11:30:00.000Z",
+      "updatedAt": "2026-09-15T11:30:00.000Z"
+    },
+    {
+      "id": "visit-003",
+      "patientId": "pt-002",
+      "visitNumber": 1,
+      "visitDate": "2026-09-18T10:30",
+      "visitorName": "ภก. ธนดล มงคลสุข",
+      "visitorRole": "เภสัชกรชำนาญการ รพ.เขาชัยสน",
+      "coVisitors": "พว. กัลยา ทรงศิริ (รพ.สต.บ้านจองถนน)",
+      "bpSys": 138,
+      "bpDia": 82,
+      "pulse": 68,
+      "temp": 36.8,
+      "rr": 18,
+      "dtx": 110,
+      "spo2": 96,
+      "weight": 62,
+      "height": 165,
+      "bmi": 22.8,
+      "painScore": 3,
+      "painLocation": "ไหล่ซ้ายและสะโพกซ้ายจากการนอนทับ",
+      "subjective": "ผู้ป่วยติดเตียงจาก Stroke อ่อนแรงซีกซ้าย ภรรยาเป็นผู้ดูแลหลัก พลิกตัวทุก 2 ชม. ทานยาบดผ่านทางปากได้ มีสายสวนปัสสาวะสีเหลืองใส ไม่มีตะกอน",
+      "objective": "BP 138/82 mmHg, Pulse 68 bpm. ไม่มีแผลกดทับ (Stage 0). ยาต้านเกล็ดเลือด Aspirin ทานต่อเนื่อง ยาลดไขมัน Atorvastatin ทานก่อนนอน",
+      "assessment": "Bedridden post-stroke status, well cared for by dedicated spouse. Stable hemodynamics.",
+      "plan": "1. แนะนำการบดยาอย่างถูกต้อง ห้ามบดยาเคลือบพิเศษ (เม็ดนี้เป็น Aspirin 81 mg ธรรมดา บดได้)\n2. สาธิตการทำ Passive ROM ข้อต่อแขนขาซ้าย ป้องกันข้อติด\n3. แนะนำการดื่มน้ำสะอาดอย่างน้อย 1,500 มล./วัน เพื่อป้องกันสายสวนปัสสาวะอุดตัน",
+      "ifeeIdeas": "ผู้ป่วยรับรู้ว่าตนเองเป็นอัมพาตและพยายามกระดิกนิ้วมือขวาตอบรับ",
+      "ifeeFeelings": "มีอาการซึมเศร้าเล็กน้อยช่วงบ่าย ภรรยาคอยเปิดวิทยุธรรมะให้ฟัง",
+      "ifeeExpectations": "อยากให้แขนขาขยับได้มากขึ้น อยากนั่งรถเข็นออกไปดูวิวทะเลสาบจองถนน",
+      "ifeeEffects": "พึ่งพาผู้ดูแล 100% ในกิจวัตรประจำวัน",
+      "inhomeImmobility": "ติดเตียง ต้องช่วยพลิกตัวทุก 2 ชั่วโมง",
+      "inhomeNutrition": "ทานอาหารปั่นผสม นม และโจ๊กปั่น ละเอียด กลืนได้ดี ไม่สำลัก",
+      "inhomeHousing": "ห้องนอนโปร่ง ลมพัดถ่ายเทดี มีมุ้งลวดกันยุง",
+      "inhomeOtherPeople": "ภรรยาอายุ 79 ปี เริ่มมีอาการปวดหลังจากการพลิกตัว ได้แนะนำให้ลูกสาวมาช่วยสลับ",
+      "inhomeMedication": "ภรรยาเป็นผู้บดยาและป้อนยาตรงเวลา จัดการยาได้เป็นระเบียบดีมาก",
+      "inhomeExamination": "ปอด clear ทั้งสองข้าง หน้าท้องนุ่ม สาย Foley สะอาดดี",
+      "inhomeSafety": "เตียงมีราวกั้นข้างเตียงทั้ง 2 ฝั่ง ป้องกันการพลัดตกเตียง",
+      "inhomeSpiritual": "เปิดฟังเทศน์เสียงตามสายทุกเช้า จิตใจสงบ",
+      "inhomeServices": "พยาบาล รพ.สต.จองถนน มาเปลี่ยนสายสวนปัสสาวะเดือนละ 1 ครั้ง",
+      "medications": [
+        {
+          "id": "med-5",
+          "name": "Aspirin 81 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้าทันที",
+          "indication": "ต้านเกล็ดเลือด ป้องกัน Stroke ซ้ำ",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "บดผสมน้ำป้อนหลังอาหารเช้าทันที ไม่พบอาการระคายเคืองกระเพาะ"
+        },
+        {
+          "id": "med-6",
+          "name": "Amlodipine 10 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง หลังอาหารเช้า",
+          "indication": "ความดันโลหิตสูง",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ควบคุม BP ได้ 138/82 mmHg"
+        },
+        {
+          "id": "med-7",
+          "name": "Atorvastatin 20 mg",
+          "dose": "1 tab",
+          "frequency": "วันละ 1 ครั้ง ก่อนนอน",
+          "indication": "ไขมันในเลือดสูง",
+          "adherence": "กินตรงเวลาสม่ำเสมอ",
+          "drpNotes": "ทานต่อเนื่อง"
+        }
+      ],
+      "pharmacistAdvice": "ให้คำแนะนำการบดยาและวิธีล้างกระบอกป้อนยา แนะนำภรรยาเรื่องท่าทางยกตัวเพื่อเซฟหลังตนเอง",
+      "photos": [
+        {
+          "id": "photo-4",
+          "dataUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&auto=format&fit=crop&q=80",
+          "caption": "ตรวจประเมินข้อต่อและสภาพเตียงนอนผู้ป่วยติดเตียง",
+          "category": "การให้คำปรึกษา",
+          "uploadedAt": "2026-09-18T11:00:00.000Z"
+        }
+      ],
+      "nextVisitDate": "2026-10-18",
+      "nextVisitTime": "10:30",
+      "nextVisitGoal": "ติดตามสภาพผิวหนัง แผลกดทับ การบดยา และรอบเปลี่ยนสายสวนปัสสาวะ",
+      "createdAt": "2026-09-18T11:30:00.000Z",
+      "updatedAt": "2026-09-18T11:30:00.000Z"
+    }
+  ],
+  "sheetsConfig": {
+    "webhookUrl": "",
+    "autoSync": false,
+    "sheetNamePatients": "ทะเบียนผู้ป่วย_เขาชัยสน",
+    "sheetNameVisits": "บันทึกการเยี่ยมบ้าน_Visits"
+  }
+}
